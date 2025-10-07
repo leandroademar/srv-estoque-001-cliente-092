@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: dash-estoque
     ports:
-      - "3000:3000"
+      - "3010:3000"
     environment:
       - NODE_ENV=production
       # Adicione suas variáveis de ambiente aqui
